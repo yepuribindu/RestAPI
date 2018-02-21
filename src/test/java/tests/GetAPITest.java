@@ -17,23 +17,20 @@ public class GetAPITest extends TestBase {
     }
 
     @BeforeMethod
-    public void setUp() throws FileNotFoundException {
+            public void getAPI() throws FileNotFoundException {
+    TestBase testBase=new TestBase();
 
-       serviceurl=prop.getProperty( "URL" );
-        apiurl=prop.getProperty( "Service URL" );
-
-
-       url=serviceurl+apiurl;
+    serviceurl=prop.getProperty( "URL" );
+    apiurl=prop.getProperty( "serviceURL" );
 
 
-
+    url=serviceurl+apiurl;
     }
 
     @Test
     public void getTest() throws IOException {
-        TestBase testBase=new TestBase();
+
         RestClient restClient=new RestClient();
-        String url="https://reqres.in/api/users";
         restClient.get( url );
     }
 

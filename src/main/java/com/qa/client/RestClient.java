@@ -10,40 +10,39 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.Map;
 
-public class RestClient {
-
-
-
-    public void get(String url) throws IOException {
-
-        CloseableHttpClient httpClient=HttpClients.createDefault();
-        HttpGet httpGet=new HttpGet( url );//http get request
-        CloseableHttpResponse closeableHttpResponse=httpClient.execute( httpGet );//hit the url
+public class RestClient
+{
 
 
-        //status code
-        int statusCode=closeableHttpResponse.getStatusLine().getStatusCode();
-        System.out.println("Status code--->"+statusCode);
-
-        //JSON String
-        String responseString=EntityUtils.toString( closeableHttpResponse.getEntity(),"UTF-8" );
-        JSONObject responseJson=new JSONObject( responseString );//
-        System.out.println("Response JSON from API-->"+ responseJson);
-
-        //ALL Headers
-        Header[] headersArray =
-                closeableHttpResponse.getAllHeaders();
-
-        HashMap<String,String> allHeaders=new HashMap<String, String>(  );
-        for(Header header:headersArray) {
-            allHeaders.put( header.getName(), header.getValue() );
+        //1.GET Method without headers
+        public CloseableHttpResponse get(String url) throws IOException
+        {
+            CloseableHttpClient httpClient = HttpClients.createDefault();
+            HttpGet httpGet = new HttpGet( url );//http get request
+            CloseableHttpResponse closeableHttpResponse = httpClient.execute( httpGet );//hit the url
+            return closeableHttpResponse;
 
         }
-        System.out.println("all headers are-->"+allHeaders);
+
+            //1.GET Method with headers
 
 
-    }
+    public CloseableHttpResponse get(String url,HashMap<String,String> headerMap) throws IOException
+            {
+                CloseableHttpClient httpClient=HttpClients.createDefault();
+                HttpGet httpGet=new HttpGet( url );//http get request
 
+                for(Map.Entry<String,String> entry :headerMap.entrySet())
+
+                {
+                    httpGet.addHeader( entry.getKey(),entry.getValue() );
+                }
+                CloseableHttpResponse closeableHttpResponse=httpClient.execute( httpGet );//hit the url
+
+                return closeableHttpResponse;
+
+                }
 
 }

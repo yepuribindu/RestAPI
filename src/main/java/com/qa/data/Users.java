@@ -10,6 +10,8 @@ public class Users
     String createdAt;
 
 
+    public Users() {
+    }
 
     public Users(String name, String job) {
         this.name = name;

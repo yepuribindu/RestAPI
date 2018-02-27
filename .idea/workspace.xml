@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64835501-afb9-4b39-81f4-68969aa5ef16" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qa/data/Users.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qa/data/users.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/tests/PostAPITest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/restapi.iml" afterPath="$PROJECT_DIR$/restapi.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/client/RestClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/qa/client/RestClient.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/GetAPITest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/GetAPITest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/client/RestClient.class" afterPath="$PROJECT_DIR$/target/classes/com/qa/client/RestClient.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/GetAPITest.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/GetAPITest.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/data/Users.java" afterPath="$PROJECT_DIR$/src/main/java/com/qa/data/Users.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/data/Users.class" afterPath="$PROJECT_DIR$/target/classes/com/qa/data/Users.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PostAPITest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PostAPITest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/PostAPITest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="60" column="49" lean-forward="true" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
+            <state relative-caret-position="462">
+              <caret line="70" column="59" lean-forward="true" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1154#1170#0" expanded="true" />
@@ -57,20 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Users.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Users.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/data/Users.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="363">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,8 +105,8 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/GetAPITest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/client/RestClient.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/data/Users.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/PostAPITest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/data/Users.java" />
       </list>
     </option>
   </component>
@@ -554,14 +547,14 @@
     <history-entry file="PostAPITest - 2018.02.27 at 15h 44m 24s.xml">
       <configuration name="PostAPITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PostAPITest_postAPITest - 2018.02.27 at 14h 42m 03s.xml">
-      <configuration name="PostAPITest.postAPITest" configurationId="TestNG" />
+    <history-entry file="PostAPITest - 2018.02.27 at 16h 31m 31s.xml">
+      <configuration name="PostAPITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PostAPITest_postAPITest - 2018.02.27 at 14h 45m 47s.xml">
-      <configuration name="PostAPITest.postAPITest" configurationId="TestNG" />
+    <history-entry file="PostAPITest - 2018.02.27 at 16h 32m 41s.xml">
+      <configuration name="PostAPITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PostAPITest_postAPITest - 2018.02.27 at 14h 51m 44s.xml">
-      <configuration name="PostAPITest.postAPITest" configurationId="TestNG" />
+    <history-entry file="PostAPITest - 2018.02.27 at 16h 33m 30s.xml">
+      <configuration name="PostAPITest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="PostAPITest_postAPITest - 2018.02.27 at 14h 53m 51s.xml">
       <configuration name="PostAPITest.postAPITest" configurationId="TestNG" />
@@ -853,30 +846,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/data/Users.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/PostAPITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="462">
+          <caret line="70" column="59" lean-forward="true" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
           <folding>
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1154#1170#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/PostAPITest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/data/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="60" column="49" lean-forward="true" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
+        <state relative-caret-position="363">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1154#1170#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
           </folding>
         </state>
       </provider>

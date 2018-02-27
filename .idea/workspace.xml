@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64835501-afb9-4b39-81f4-68969aa5ef16" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qa/data/Users.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qa/data/users.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/tests/PostAPITest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" afterPath="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" />
+      <change beforePath="$PROJECT_DIR$/restapi.iml" afterPath="$PROJECT_DIR$/restapi.iml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/client/RestClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/qa/client/RestClient.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/GetAPITest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/GetAPITest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/base/TestBase.class" afterPath="$PROJECT_DIR$/target/classes/com/qa/base/TestBase.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/qa/client/RestClient.class" afterPath="$PROJECT_DIR$/target/classes/com/qa/client/RestClient.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/GetAPITest.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/GetAPITest.class" />
     </list>
@@ -21,71 +22,65 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="GetAPITest.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/test/java/tests/GetAPITest.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="261">
+                    <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/config/config.properties">
+      <file leaf-file-name="PostAPITest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/PostAPITest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="60" column="49" lean-forward="true" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1154#1170#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Users.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/data/Users.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+              <folding>
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#764#765#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/data/users.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestClient.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/client/RestClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetAPITest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/GetAPITest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="135" column="8" lean-forward="false" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2885#2901#0" expanded="true" />
-                <element signature="e#3281#3297#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -114,9 +109,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qa/config/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/tests/GetAPITest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/client/RestClient.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/data/Users.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/PostAPITest.java" />
       </list>
     </option>
   </component>
@@ -220,6 +217,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -261,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GetAPITest.getAPITestwithHeaders">
+  <component name="RunManager" selected="TestNG.PostAPITest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -405,6 +411,70 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="PostAPITest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="restapi" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PostAPITest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="PostAPITest.postAPITest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="restapi" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PostAPITest" />
+      <option name="METHOD_NAME" value="postAPITest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -438,16 +508,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.GetAPITest.getTest" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.GetAPITest" />
       <item index="2" class="java.lang.String" itemvalue="TestNG.GetAPITest.getAPITestwithHeaders" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.PostAPITest.postAPITest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.PostAPITest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.GetAPITest.getAPITestwithHeaders" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.GetAPITest.getTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.GetAPITest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.PostAPITest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.PostAPITest.postAPITest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.GetAPITest.getAPITestwithHeaders" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.GetAPITest.getTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.GetAPITest" />
       </list>
     </recent_temporary>
   </component>
@@ -468,35 +542,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetAPITest_getAPITestwithHeaders - 2018.02.23 at 15h 15m 46s.xml">
-      <configuration name="GetAPITest.getAPITestwithHeaders" configurationId="TestNG" />
+    <history-entry file="PostAPITest - 2018.02.27 at 15h 30m 01s.xml">
+      <configuration name="PostAPITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetAPITest_getAPITestwithHeaders - 2018.02.23 at 15h 18m 52s.xml">
-      <configuration name="GetAPITest.getAPITestwithHeaders" configurationId="TestNG" />
+    <history-entry file="PostAPITest - 2018.02.27 at 15h 36m 20s.xml">
+      <configuration name="PostAPITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetAPITest_getAPITestwithHeaders - 2018.02.23 at 15h 19m 24s.xml">
-      <configuration name="GetAPITest.getAPITestwithHeaders" configurationId="TestNG" />
+    <history-entry file="PostAPITest - 2018.02.27 at 15h 43m 48s.xml">
+      <configuration name="PostAPITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetAPITest_getAPITestwithHeaders - 2018.02.23 at 15h 23m 01s.xml">
-      <configuration name="GetAPITest.getAPITestwithHeaders" configurationId="TestNG" />
+    <history-entry file="PostAPITest - 2018.02.27 at 15h 44m 24s.xml">
+      <configuration name="PostAPITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetAPITest_getAPITestwithHeaders - 2018.02.23 at 15h 23m 28s.xml">
-      <configuration name="GetAPITest.getAPITestwithHeaders" configurationId="TestNG" />
+    <history-entry file="PostAPITest_postAPITest - 2018.02.27 at 14h 42m 03s.xml">
+      <configuration name="PostAPITest.postAPITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetAPITest_getAPITestwithHeaders - 2018.02.23 at 15h 27m 12s.xml">
-      <configuration name="GetAPITest.getAPITestwithHeaders" configurationId="TestNG" />
+    <history-entry file="PostAPITest_postAPITest - 2018.02.27 at 14h 45m 47s.xml">
+      <configuration name="PostAPITest.postAPITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetAPITest_getAPITestwithHeaders - 2018.02.23 at 15h 27m 45s.xml">
-      <configuration name="GetAPITest.getAPITestwithHeaders" configurationId="TestNG" />
+    <history-entry file="PostAPITest_postAPITest - 2018.02.27 at 14h 51m 44s.xml">
+      <configuration name="PostAPITest.postAPITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetAPITest_getAPITestwithHeaders - 2018.02.23 at 15h 28m 13s.xml">
-      <configuration name="GetAPITest.getAPITestwithHeaders" configurationId="TestNG" />
+    <history-entry file="PostAPITest_postAPITest - 2018.02.27 at 14h 53m 51s.xml">
+      <configuration name="PostAPITest.postAPITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetAPITest_getTest - 2018.02.23 at 14h 10m 30s.xml">
-      <configuration name="GetAPITest.getTest" configurationId="TestNG" />
+    <history-entry file="PostAPITest_postAPITest - 2018.02.27 at 15h 31m 07s.xml">
+      <configuration name="PostAPITest.postAPITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetAPITest_getTest - 2018.02.23 at 14h 10m 47s.xml">
-      <configuration name="GetAPITest.getTest" configurationId="TestNG" />
+    <history-entry file="PostAPITest_postAPITest - 2018.02.27 at 15h 32m 59s.xml">
+      <configuration name="PostAPITest.postAPITest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -536,7 +610,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -565,42 +639,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/org/apache/http/client/methods/HttpGet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/org/apache/http/impl/client/HttpClientBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="478" column="0" lean-forward="false" selection-start-line="478" selection-start-column="0" selection-end-line="478" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/internal/MethodInvocationHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="394" column="0" lean-forward="false" selection-start-line="394" selection-start-column="0" selection-end-line="394" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/config/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -610,15 +652,39 @@
         <state relative-caret-position="147">
           <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/config/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+        <state relative-caret-position="678">
+          <caret line="65" column="53" lean-forward="false" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/client/RestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="65" column="41" lean-forward="true" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -631,24 +697,186 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar!/com/fasterxml/jackson/databind/exc/InvalidDefinitionException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/GetAPITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="135" column="8" lean-forward="false" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="8" />
+        <state relative-caret-position="261">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/org/apache/http/client/methods/HttpGet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2885#2901#0" expanded="true" />
-            <element signature="e#3281#3297#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/client/RestClient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/internal/MethodInvocationHelper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="240">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar!/com/fasterxml/jackson/databind/type/SimpleType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar!/com/fasterxml/jackson/databind/ext/Java7Support.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar!/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="1123" column="0" lean-forward="false" selection-start-line="1123" selection-start-column="0" selection-end-line="1123" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.jar!/com/fasterxml/jackson/core/util/BufferRecycler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#904#905#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.jar!/com/fasterxml/jackson/core/util/BufferRecyclers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.jar!/com/fasterxml/jackson/core/io/IOContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#987#988#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.jar!/com/fasterxml/jackson/core/JsonFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="404" selection-end-column="0" />
+          <folding>
+            <element signature="e#23173#23174#0" expanded="true" />
+            <element signature="e#23233#23234#0" expanded="true" />
+            <element signature="e#23265#23266#0" expanded="true" />
+            <element signature="e#23315#23316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="1200" column="0" lean-forward="false" selection-start-line="1200" selection-start-column="0" selection-end-line="1200" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="477" column="0" lean-forward="false" selection-start-line="477" selection-start-column="0" selection-end-line="477" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/org/apache/http/impl/execchain/HttpResponseProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="e#1828#1829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20160212/json-20160212.jar!/org/json/JSONTokener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#991#992#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20160212/json-20160212.jar!/org/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/data/users.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/data/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/PostAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="60" column="49" lean-forward="true" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1154#1170#0" expanded="true" />
           </folding>
         </state>
       </provider>

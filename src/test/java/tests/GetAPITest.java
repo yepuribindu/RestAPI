@@ -19,17 +19,19 @@ public class GetAPITest extends TestBase {
     String url;
     String serviceurl;
     String apiurl;
-
     RestClient restClient;
     CloseableHttpResponse closeableHttpResponse;
+    TestBase testBase;
 
     public GetAPITest() throws FileNotFoundException {
     }
 
-    @BeforeMethod
 
-    public void getAPI() throws FileNotFoundException {
-    TestBase testBase=new TestBase();
+    @BeforeMethod
+    public void getAPI() throws FileNotFoundException
+    {
+
+        testBase=new TestBase();
 
     serviceurl=prop.getProperty( "URL" );
     apiurl=prop.getProperty( "serviceURL" );
